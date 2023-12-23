@@ -100,7 +100,7 @@ const CalenderPage = () => {
           disabled={bookedTimes.includes(12)}
           onClick={() => handleBooking(selectedDate, 12)}
         >
-          12.00 am
+          12.00 pm
         </button>
         <button
           className={"btn btn-primary "}
